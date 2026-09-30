@@ -1,0 +1,41 @@
+{
+  "application_id": "3a5ddfe74e51",
+  "gateway_id": "gdaubudgo0j0ejte80p1g",
+  "region": "cn-beijing",
+  "function": {
+    "Id": "qgw0hac0",
+    "Name": "tripflow-demo",
+    "Runtime": "native-python3.12/v1",
+    "Status": "release complete",
+    "CurrentRevision": 1,
+    "MemoryMB": 2048,
+    "Cpu": 1000,
+    "MaxConcurrency": 32,
+    "RequestTimeout": 30,
+    "Port": 8000,
+    "InstanceType": ""
+  },
+  "scale": {
+    "FunctionId": "qgw0hac0",
+    "MinInstance": 0,
+    "MaxInstance": 3,
+    "ReservedFrozenInstance": 0,
+    "MemoryMB": 2048
+  },
+  "instances_observed": [
+    {
+      "InstanceName": "vefaas-qgw0hac0-d532kmtkbq-daucg8vt7lp6croncjkg",
+      "InstanceStatus": "Ready",
+      "RevisionNumber": 1,
+      "CreationTime": "2026-09-30 16:28:19.436851806 +0800 CST",
+      "InstanceType": "elastic"
+    },
+    {
+      "InstanceName": "qgw0hac0-d532kmtkbq-5b49f4b4c7-h9nf7",
+      "InstanceStatus": "Ready",
+      "RevisionNumber": 1,
+      "CreationTime": "2026-09-30 16:32:26.790344078 +0800 CST",
+      "InstanceType": "elastic"
+    }
+  ]
+}

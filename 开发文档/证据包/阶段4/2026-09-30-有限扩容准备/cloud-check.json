@@ -1,0 +1,126 @@
+{
+  "url": "https://smmsnmesmo34k7l4t9e6g.apigateway-cn-beijing.volceapi.com",
+  "version": "170eb3dd829a212e",
+  "scope": "Public HTTPS API smoke; 100 concurrent simulated users, no live Baidu load; not full browser capacity guarantee",
+  "checks": [
+    {
+      "path": "POST /api/v1/trips/preset",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "path": "GET /api/v1/trips/cqpreset01",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "path": "GET /api/v1/trips/cqpreset01/places",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "path": "GET /api/v1/trips/cqpreset01/route",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "path": "GET /api/v1/trips/cqpreset01/hotels",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "path": "GET /api/v1/trips/cqpreset01/photos",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "path": "GET /api/v1/trips/cqpreset01/app-nav",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "path": "GET /api/v1/share/cqpreset01",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "path": "POST /api/v1/trips/cqpreset01/export",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "path": "GET /api/v1/tasks/preset-export-v1",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "path": "GET /.env",
+      "status": 404,
+      "pass": true
+    },
+    {
+      "path": "GET /docs",
+      "status": 404,
+      "pass": true
+    },
+    {
+      "path": "GET /openapi.json",
+      "status": 404,
+      "pass": true
+    },
+    {
+      "path": "GET /api/v1/ai-budget",
+      "status": 404,
+      "pass": true
+    },
+    {
+      "path": "GET /api/v1/trips/d69cb2c2",
+      "status": 404,
+      "pass": true
+    },
+    {
+      "path": "GET /api/v1/tasks/private",
+      "status": 404,
+      "pass": true
+    },
+    {
+      "path": "GET /share/private",
+      "status": 404,
+      "pass": true
+    },
+    {
+      "path": "POST /api/v1/trips",
+      "status": 409,
+      "pass": true
+    },
+    {
+      "path": "PATCH /api/v1/trips/cqpreset01/places",
+      "status": 404,
+      "pass": false
+    },
+    {
+      "path": "map day 1",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "path": "map day 2",
+      "status": 200,
+      "pass": true
+    }
+  ],
+  "export_sha256_matches": true,
+  "load": {
+    "users": 100,
+    "requests": 1000,
+    "statuses": {
+      "200": 1000
+    },
+    "errors": {},
+    "successful_journeys": 100,
+    "elapsed_s": 7.64,
+    "p95_ms": 2078.4,
+    "response_bytes": 7228300
+  },
+  "recovered_after_burst": true
+}

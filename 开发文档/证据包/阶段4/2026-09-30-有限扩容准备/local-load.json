@@ -1,0 +1,42 @@
+{
+  "scope": "local HTTP only; real frozen data; no live Baidu load; NOT a cloud capacity guarantee",
+  "package_version": "170eb3dd829a212e",
+  "stages": [
+    {
+      "simulated_users": 20,
+      "requests": 200,
+      "status_counts": {
+        "200": 200
+      },
+      "successful_journeys": 20,
+      "network_or_protocol_errors": {},
+      "elapsed_s": 0.27,
+      "p95_request_ms": 122.8
+    },
+    {
+      "simulated_users": 100,
+      "requests": 1000,
+      "status_counts": {
+        "200": 1000
+      },
+      "successful_journeys": 100,
+      "network_or_protocol_errors": {},
+      "elapsed_s": 2.17,
+      "p95_request_ms": 791.3
+    },
+    {
+      "simulated_users": 500,
+      "requests": 5000,
+      "status_counts": {
+        "200": 5000
+      },
+      "successful_journeys": 500,
+      "network_or_protocol_errors": {},
+      "elapsed_s": 19.739,
+      "p95_request_ms": 7495.5
+    }
+  ],
+  "cross_instance_response_parity": true,
+  "restart_export_restored": true,
+  "recovered_after_burst": true
+}

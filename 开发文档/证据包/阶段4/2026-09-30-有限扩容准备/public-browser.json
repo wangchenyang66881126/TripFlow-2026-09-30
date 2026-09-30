@@ -1,0 +1,61 @@
+{
+  "url": "https://smmsnmesmo34k7l4t9e6g.apigateway-cn-beijing.volceapi.com/?trip=cqpreset01",
+  "width": 1263,
+  "overflow": false,
+  "canvases": 3,
+  "maps": [
+    {
+      "canvas": true,
+      "markers": 8
+    },
+    {
+      "canvas": true,
+      "markers": 8
+    },
+    {
+      "canvas": true,
+      "markers": 8
+    }
+  ],
+  "tabs": [
+    {
+      "text": "Day 18 站",
+      "selected": "false"
+    },
+    {
+      "text": "Day 28 站",
+      "selected": "true"
+    }
+  ],
+  "buttons": [
+    "分享行程",
+    "分享",
+    "保存长图"
+  ],
+  "navLinks": [
+    {
+      "text": "",
+      "host": "map.baidu.com"
+    },
+    {
+      "text": "公交",
+      "host": "map.baidu.com"
+    },
+    {
+      "text": "步行",
+      "host": "map.baidu.com"
+    },
+    {
+      "text": "骑行",
+      "host": "map.baidu.com"
+    },
+    {
+      "text": "公交",
+      "host": "map.baidu.com"
+    },
+    {
+      "text": "步行",
+      "host": "map.baidu.com"
+    }
+  ]
+}

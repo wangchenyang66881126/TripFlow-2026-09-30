@@ -1,0 +1,9 @@
+{
+  "files": 562,
+  "uncompressed_bytes": 16170604,
+  "zip_bytes": 8387932,
+  "zip_sha256": "77c8e1c6520a7566693ef323e6073170a5aa2cced34cb4c1b2740a95757c5e0f",
+  "known_local_secret_scan": "passed",
+  "database_files": "none",
+  "runtime": "native-python3.12/v1 Linux x86_64"
+}

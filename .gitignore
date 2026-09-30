@@ -1,0 +1,19 @@
+.env
+.env.*
+!.env.example
+.venv/
+__pycache__/
+.pytest_cache/
+node_modules/
+.next/
+data/
+.vefaas/
+.DS_Store
+
+# 前端构建可能包含本地浏览器地图配置，不上传构建产物。
+**/frontend/dist/
+
+# 本机编辑器、缓存和运行日志
+*.log
+.coverage
+htmlcov/
